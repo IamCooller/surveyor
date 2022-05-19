@@ -53,19 +53,34 @@
                     <a href="#" class="header__logo">
                         <img src="img/logo.svg" alt="Logo">
                     </a>
-                    <nav class="header__menu">
-                        <a href="services.html">Услуги</a>
-                        <a href="objects.html">Объекты</a>
-                        <a href="news.html">Пресс-центр</a>
-                        <a href="#">О центре</a>
-                        <a href="#">Контакты</a>
-                    </nav>
+                    <ul class="header__menu">
+                        <li><a href="services.html">Услуги</a>
+                            <li><a href="objects.html">Объекты</a></li>
+                            <li class="has-childs"><a>Пресс-центр</a>
+                                <div class="labgvidg-header__icon">
+                                    <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"></path>
+								</svg>
+                                </div>
+                                <div class="childs">
+                                    <ul>
+                                        <li><a href="news.html">Новости</a></li>
+                                        <li><a href="photos.html">Фотогалереи</a></li>
+                                        <li><a href="videos.html">Видеогалереи</a></li>
+                                    </ul>
+
+                                </div>
+                            </li>
+
+                            <li><a href="#">О центре</a></li>
+                            <li><a href="#">Контакты</a></li>
+                    </ul>
                     <div class="header__options">
                         <a href="mailto:info@es-lr.uz" class="header__options-email">info@es-lr.uz</a>
                         <a href="tel: +99893 200 25 63" class="header__options-tel">+99893 200 25 63</a>
                         <div class="header__options-lang labgvidg-header">
 
-                            <div class="labgvidg-header__text active">
+                            <div class="labgvidg-header__text">
                                 RU
                                 <div class="labgvidg-header__icon">
                                     <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -120,13 +135,28 @@
                         </div>
 
                         <div class="hamburger-menu__content">
-                            <nav class="hamburger-menu__nav">
-                                <a href="services.html">Услуги</a>
-                                <a href="objects.html">Объекты</a>
-                                <a href="news.html">Пресс-центр</a>
-                                <a href="#">О центре</a>
-                                <a href="#">Контакты</a>
-                            </nav>
+                            <ul class="hamburger-menu__nav">
+                                <li><a href="services.html">Услуги</a>
+                                    <li><a href="objects.html">Объекты</a></li>
+                                    <li class="has-childs"><a>Пресс-центр</a>
+                                        <div class="labgvidg-header__icon">
+                                            <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"></path>
+										</svg>
+                                        </div>
+                                        <div class="childs">
+                                            <ul>
+                                                <li><a href="news.html">Новости</a></li>
+                                                <li><a href="photos.html">Фотогалереи</a></li>
+                                                <li><a href="videos.html">Видеогалереи</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </li>
+
+                                    <li><a href="#">О центре</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                            </ul>
                             <div class="hamburger-menu__options">
                                 <a href="tel:+99893 200 25 63" class="hamburger-menu__options-tel">+99893 200 25 63</a>
                                 <a href="mailto:info@es-lr.uz" class="hamburger-menu__options-email">info@es-lr.uz</a>
@@ -170,25 +200,9 @@
     <main class="content ">
 
 
-        <section class="SinglePhotos SingleGallery borderTop" data-aos="fade-down">
-            <div class="container">
-                <div class="bg-copter">
-                    <svg width="312" height="268" viewBox="0 0 312 268" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M67.1417 160.251L50.5434 181.591C43.2381 190.984 39.272 202.543 39.272 214.442L39.272 256.302C39.272 261.524 35.0385 265.758 29.8162 265.758V265.758C24.5939 265.758 20.3604 261.524 20.3604 256.302L20.3604 212.353C20.3604 201.729 23.3998 191.326 29.12 182.372L43.2534 160.251" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <path d="M243.319 161.245L259.917 182.586C267.222 191.979 271.188 203.538 271.188 215.437V257.297C271.188 262.519 275.422 266.752 280.644 266.752V266.752C285.867 266.752 290.1 262.519 290.1 257.297V213.348C290.1 202.724 287.061 192.321 281.34 183.367L267.207 161.245" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="1.20361" y="64.4512" width="309.049" height="96.0442" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="136.571" y="160.005" width="38.3139" height="26.3698" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="100.739" y="185.884" width="109.979" height="66.1837" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="44.9993" y="22.6472" width="46.2767" height="42.2953" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="56.9436" y="0.75" width="22.3884" height="22.3884" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <line x1="20.3611" y1="1.24036" x2="115.915" y2="1.24036" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="220.18" y="22.6477" width="46.2767" height="42.2953" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <rect x="232.125" y="0.750488" width="22.3884" height="22.3884" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <line x1="195.542" y1="1.24084" x2="291.095" y2="1.24084" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <circle cx="156.724" cy="217.981" r="8.20814" stroke="#CAD0EE" stroke-width="1.5"/>
-                        </svg>
+        <section class="SinglePhotos SingleGallery borderTop bg-img-fix" style="background-image: url('img/backgorundFix/background13.svg');">
+            <div class="container" data-aos="fade-down">
 
-                </div>
                 <ul class="breadcrumb">
                     <li><a href="http://127.0.0.1:8000">Главная</a></li>
                     <li><a href="photos.html">Фотогалерея</a></li>
@@ -227,16 +241,7 @@
 
                     </div>
                 </div>
-                <div class="bg-project"><svg width="220" height="419" viewBox="0 0 220 419" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="24.4253" y="41.389" width="149.443" height="132.027" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <rect x="65.0642" y="0.75" width="68.1661" height="100.096" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <rect x="65.064" y="173.639" width="68.1661" height="52.0263" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <circle cx="99.1472" cy="49.3471" r="7.95827" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <line x1="99.8972" y1="226.415" x2="99.8972" y2="417.997" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <line x1="111.412" y1="226.048" x2="218.814" y2="417.63" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <line x1="88.2209" y1="223.819" x2="1.13825" y2="418.304" stroke="#CAD0EE" stroke-width="1.5"/>
-                    </svg>
-                </div>
+
         </section>
     </main>
 

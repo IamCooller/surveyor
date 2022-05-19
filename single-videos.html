@@ -53,19 +53,34 @@
                     <a href="#" class="header__logo">
                         <img src="img/logo.svg" alt="Logo">
                     </a>
-                    <nav class="header__menu">
-                        <a href="services.html">Услуги</a>
-                        <a href="objects.html">Объекты</a>
-                        <a href="news.html">Пресс-центр</a>
-                        <a href="#">О центре</a>
-                        <a href="#">Контакты</a>
-                    </nav>
+                    <ul class="header__menu">
+                        <li><a href="services.html">Услуги</a>
+                            <li><a href="objects.html">Объекты</a></li>
+                            <li class="has-childs"><a>Пресс-центр</a>
+                                <div class="labgvidg-header__icon">
+                                    <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"></path>
+								</svg>
+                                </div>
+                                <div class="childs">
+                                    <ul>
+                                        <li><a href="news.html">Новости</a></li>
+                                        <li><a href="photos.html">Фотогалереи</a></li>
+                                        <li><a href="videos.html">Видеогалереи</a></li>
+                                    </ul>
+
+                                </div>
+                            </li>
+
+                            <li><a href="#">О центре</a></li>
+                            <li><a href="#">Контакты</a></li>
+                    </ul>
                     <div class="header__options">
                         <a href="mailto:info@es-lr.uz" class="header__options-email">info@es-lr.uz</a>
                         <a href="tel: +99893 200 25 63" class="header__options-tel">+99893 200 25 63</a>
                         <div class="header__options-lang labgvidg-header">
 
-                            <div class="labgvidg-header__text active">
+                            <div class="labgvidg-header__text">
                                 RU
                                 <div class="labgvidg-header__icon">
                                     <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -120,13 +135,28 @@
                         </div>
 
                         <div class="hamburger-menu__content">
-                            <nav class="hamburger-menu__nav">
-                                <a href="services.html">Услуги</a>
-                                <a href="objects.html">Объекты</a>
-                                <a href="news.html">Пресс-центр</a>
-                                <a href="#">О центре</a>
-                                <a href="#">Контакты</a>
-                            </nav>
+                            <ul class="hamburger-menu__nav">
+                                <li><a href="services.html">Услуги</a>
+                                    <li><a href="objects.html">Объекты</a></li>
+                                    <li class="has-childs"><a>Пресс-центр</a>
+                                        <div class="labgvidg-header__icon">
+                                            <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"></path>
+										</svg>
+                                        </div>
+                                        <div class="childs">
+                                            <ul>
+                                                <li><a href="news.html">Новости</a></li>
+                                                <li><a href="photos.html">Фотогалереи</a></li>
+                                                <li><a href="videos.html">Видеогалереи</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </li>
+
+                                    <li><a href="#">О центре</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                            </ul>
                             <div class="hamburger-menu__options">
                                 <a href="tel:+99893 200 25 63" class="hamburger-menu__options-tel">+99893 200 25 63</a>
                                 <a href="mailto:info@es-lr.uz" class="hamburger-menu__options-email">info@es-lr.uz</a>
@@ -170,19 +200,9 @@
     <main class="content ">
 
 
-        <section class="SingleVideos SingleGallery borderTop" data-aos="fade-down">
-            <div class="container">
-                <div class="bg-circle">
-                    <svg width="230" height="343" viewBox="0 0 230 343" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="0.453613" y1="209.397" x2="229.923" y2="209.397" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <path d="M127.723 14.4928V66.8831H100.237V14.4928C100.237 6.90286 106.39 0.75 113.98 0.75C121.57 0.75 127.723 6.90286 127.723 14.4928Z" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <path d="M94.6969 119.321L113.696 126.288L34.6868 339.16L26.8372 304.368L94.6969 119.321Z" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <path d="M136.36 119.32L117.361 126.288L196.37 339.16L204.22 304.367L136.36 119.32Z" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <circle cx="115.188" cy="95.4112" r="39.1052" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                        <circle cx="116.396" cy="94.2039" r="11.3273" stroke="#CAD0EE" stroke-width="1.5"/>
-                        </svg>
+        <section class="SingleVideos SingleGallery borderTop bg-img-fix" style="background-image: url('img/backgorundFix/background15.svg');">
+            <div class="container" data-aos="fade-down">
 
-                </div>
                 <ul class="breadcrumb">
                     <li><a href="http://127.0.0.1:8000">Главная</a></li>
                     <li><a href="photos.html">Видеогалерея</a></li>
@@ -221,16 +241,7 @@
 
                     </div>
                 </div>
-                <div class="bg-project"><svg width="220" height="419" viewBox="0 0 220 419" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="24.4253" y="41.389" width="149.443" height="132.027" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <rect x="65.0642" y="0.75" width="68.1661" height="100.096" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <rect x="65.064" y="173.639" width="68.1661" height="52.0263" fill="white" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <circle cx="99.1472" cy="49.3471" r="7.95827" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <line x1="99.8972" y1="226.415" x2="99.8972" y2="417.997" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <line x1="111.412" y1="226.048" x2="218.814" y2="417.63" stroke="#CAD0EE" stroke-width="1.5"/>
-                    <line x1="88.2209" y1="223.819" x2="1.13825" y2="418.304" stroke="#CAD0EE" stroke-width="1.5"/>
-                    </svg>
-                </div>
+
         </section>
     </main>
 
