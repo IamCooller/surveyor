@@ -4943,6 +4943,11 @@ ul.paggination li:last-child {
   .header .labgvidg-header__dropdown-item {
     margin: 0;
   }
+  .header .hamburger-menu__nav li {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
   .main-title {
     line-height: initial;
   }

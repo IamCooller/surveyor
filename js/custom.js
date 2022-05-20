@@ -214,13 +214,17 @@ $('.labgvidg-header__text').on('click', function() {
 
 $(document).mouseup(function(e) {
     let lang = $(".labgvidg-header__text");
-    let childs = $('.has-childs');
+    let aboutchilds = $('.about_link');
+    let presschilds = $('.press_link');
     if (e.target != lang[0] && !lang.has(e.target).length && (lang.hasClass('active'))) {
         $('.labgvidg-header__dropdown').slideUp();
         lang.removeClass('active');
     }
-    if (e.target != childs[0] && !childs.has(e.target).length && childs.hasClass('active')) {
-        $(childs).toggleClass('active').find('.childs').slideUp()
+    if (e.target != aboutchilds[0] && !aboutchilds.has(e.target).length && aboutchilds.hasClass('active')) {
+        $(aboutchilds).toggleClass('active').find('.childs').slideUp()
+    }
+    if (e.target != presschilds[0] && !presschilds.has(e.target).length && presschilds.hasClass('active')) {
+        $(presschilds).toggleClass('active').find('.childs').slideUp()
     }
 
 });
@@ -294,85 +298,6 @@ $('body').on('click', '.link_move', function(event) {
 ///
 ///
 
-// Карта стран
-
-// Kz
-$('.kz-link').on('mouseover', function() {
-    $('.projects__info.kz').show()
-    $('.projects__map a.kz').addClass('active')
-})
-
-$('.kz-link').on('mouseleave', function() {
-    $('.projects__info.kz').hide()
-    $('.projects__map a.kz').removeClass('active')
-})
-
-// Tj
-$('.tj-link').on('mouseover', function() {
-    $('.projects__info.tj').show()
-    $('.projects__map a.tj').addClass('active')
-})
-
-$('.tj-link').on('mouseleave', function() {
-    $('.projects__info.tj').hide()
-    $('.projects__map a.tj').removeClass('active')
-})
-
-// Uz
-$('.uz-link').on('mouseover', function() {
-    $('.projects__info.uz').show()
-    $('.projects__map a.uz').addClass('active')
-})
-
-$('.uz-link').on('mouseleave', function() {
-    $('.projects__info.uz').hide()
-    $('.projects__map a.uz').removeClass('active')
-})
-
-// Tk
-$('.tk-link').on('mouseover', function() {
-    $('.projects__info.tk').show()
-    $('.projects__map a.tk').addClass('active')
-})
-
-$('.tk-link').on('mouseleave', function() {
-    $('.projects__info.tk').hide()
-    $('.projects__map a.tk').removeClass('active')
-})
-
-// Af
-$('.af-link').on('mouseover', function() {
-    $('.projects__info.af').show()
-    $('.projects__map a.af').addClass('active')
-})
-
-$('.af-link').on('mouseleave', function() {
-    $('.projects__info.af').hide()
-    $('.projects__map a.af').removeClass('active')
-})
-
-// Krgz
-$('.krgz-link').on('mouseover', function() {
-    $('.projects__info.krgz').show()
-    $('.projects__map a.krgz').addClass('active')
-})
-
-$('.krgz-link').on('mouseleave', function() {
-    $('.projects__info.krgz').hide()
-    $('.projects__map a.krgz').removeClass('active')
-})
-
-// Viet
-$('.viet-link').on('mouseover', function() {
-    $('.projects__info.viet').show()
-    $('.projects__map a.viet').addClass('active')
-})
-
-$('.viet-link').on('mouseleave', function() {
-        $('.projects__info.viet').hide()
-        $('.projects__map a.viet').removeClass('active')
-    })
-    // eof
 
 $('.custom-scroll').mCustomScrollbar()
 
