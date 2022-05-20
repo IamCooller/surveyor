@@ -1,0 +1,660 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Геодезисты | Главная</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" sizes="192x192" href="img/favicon.ico" />
+
+    <!-- fontawesome -->
+    <script async defer src="https://kit.fontawesome.com/55e0136003.js" crossorigin="anonymous"></script>
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="scss/reset.css" />
+
+    <!-- libs css -->
+
+    <link rel="stylesheet" href="libs/aos/aos.css" />
+    <link rel="stylesheet" href="libs/custom-scrollbar/mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="scss/main.css" />
+
+
+    <!-- jQeury -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- libs js -->
+    <script src="libs/custom-scrollbar/mCustomScrollbar.js"></script>
+    <script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- main js -->
+    <script defer src="js/voice.js"></script>
+    <script defer src="js/custom.js"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__body_left">
+
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.svg" alt="Logo">
+                    </a>
+                    <ul class="header__menu">
+                        <li><a href="services.html">Услуги</a>
+                            <li><a href="objects.html">Объекты</a></li>
+                            <li class="has-childs"><a>Пресс-центр</a>
+                                <div class="labgvidg-header__icon">
+                                    <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"></path>
+								</svg>
+                                </div>
+                                <div class="childs">
+                                    <ul>
+                                        <li><a href="news.html">Новости</a></li>
+                                        <li><a href="photos.html">Фотогалереи</a></li>
+                                        <li><a href="videos.html">Видеогалереи</a></li>
+                                    </ul>
+
+                                </div>
+                            </li>
+
+                            <li><a href="#">О центре</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                    <div class="header__options">
+                        <a href="mailto:info@es-lr.uz" class="header__options-email">info@es-lr.uz</a>
+                        <a href="tel: +99893 200 25 63" class="header__options-tel">+99893 200 25 63</a>
+                        <div class="header__options-lang labgvidg-header">
+
+                            <div class="labgvidg-header__text">
+                                RU
+                                <div class="labgvidg-header__icon">
+                                    <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"/>
+									</svg>
+                                </div>
+                            </div>
+
+                            <div class="labgvidg-header__dropdown" style="display: none;">
+                                <div class="labgvidg-header__dropdown-inner">
+                                    <a href="index-uz.html" class="labgvidg-header__dropdown-item">O’z</a>
+                                    <a href="index.html" class="labgvidg-header__dropdown-item">RU</a>
+                                    <a href="index-en.html" class="labgvidg-header__dropdown-item">EN</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="header__body_right">
+                    <a href="#callback__form" class="popup-modal header__button">
+                        <img src="img/telhead.svg" alt="tel"> ЗАКАЗАТЬ ЗВОНОК
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="header__menu_mobile">
+
+                <a href="#" class="header__menu_mobile__logo">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+                <div class="menu__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z" fill="#101C5A"/>
+						</svg>
+                </div>
+
+                <div class="hamburger-menu">
+                    <div class="hamburger-menu_wrapper">
+                        <div class="hamburger-menu_top">
+                            <a href="#" class="header__menu_mobile__logo">
+                                <img src="img/logo.svg" alt="Logo">
+                            </a>
+                            <button class="hamburger-menu__close">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="#101C5A"/>
+									</svg>
+										
+								</button>
+                        </div>
+
+                        <div class="hamburger-menu__content">
+                            <ul class="hamburger-menu__nav">
+                                <li><a href="services.html">Услуги</a>
+                                    <li><a href="objects.html">Объекты</a></li>
+                                    <li class="has-childs"><a>Пресс-центр</a>
+                                        <div class="labgvidg-header__icon">
+                                            <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"></path>
+										</svg>
+                                        </div>
+                                        <div class="childs">
+                                            <ul>
+                                                <li><a href="news.html">Новости</a></li>
+                                                <li><a href="photos.html">Фотогалереи</a></li>
+                                                <li><a href="videos.html">Видеогалереи</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </li>
+
+                                    <li><a href="#">О центре</a></li>
+                                    <li><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                            <div class="hamburger-menu__options">
+                                <a href="tel:+99893 200 25 63" class="hamburger-menu__options-tel">+99893 200 25 63</a>
+                                <a href="mailto:info@es-lr.uz" class="hamburger-menu__options-email">info@es-lr.uz</a>
+                                <div class="header__options-lang labgvidg-header">
+
+                                    <div class="labgvidg-header__text active">
+                                        RU
+                                        <div class="labgvidg-header__icon">
+                                            <svg width="9" height="4" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.5 4L0.5 0H8.5L4.5 4Z" fill="#101C5A"/>
+											</svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="labgvidg-header__dropdown" style="display: none;">
+                                        <div class="labgvidg-header__dropdown-inner">
+                                            <a href="index-uz.html" class="labgvidg-header__dropdown-item">O’z</a>
+                                            <a href="index.html" class="labgvidg-header__dropdown-item">RU</a>
+                                            <a href="index-en.html" class="labgvidg-header__dropdown-item">EN</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#callback__form" class="popup-modal header__button hamburger-menu__button">
+                            <img src="img/telhead.svg" alt="tel"> ЗАКАЗАТЬ ЗВОНОК
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main class="content ">
+
+        <section class="vacancy borderTop  bg-img-fix" style="background-image: url('img/backgorundFix/background19.svg');">
+            <div class="container" data-aos="fade-down">
+
+                <ul class="breadcrumb">
+                    <li><a href="http://127.0.0.1:8000">Главная</a></li>
+                    <li><span>Вакансии</span></li>
+                </ul>
+                <div class="vacancy__wrapper">
+                    <div class="title">Вакансии</div>
+                    <div class="vacancy__list">
+                        <div class="vacancy__list_item">
+                            <button class="accordion">
+                            <h2>Ведуший инженер по Зданию ГЭС и вспомогательным сооружениям</h2>
+                            <div class="accordion__text">
+                                <p>Зарплата по итогу собеседования</p>
+                                <p>Требуемый опыт работы: не менее 5 лет</p>
+                                    <p>Полная занятость, полный день</p>
+                            </div>
+                            </button>
+                            <div class="panel" style="margin-top: -1px;">
+                                <h3>Обязанности:</h3>
+                                <ul>
+
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Требования: ​​​​​​​</h3>
+                                <ul>
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Условия работы:</h3>
+                                <p>трудоустройство согласно ТК РУз;
+                                </p>
+                                <p>работа в современном офисе в центре города;
+                                </p>
+                                <p>график работы с пн.- пт. с 9:00 до 18:00</p>
+                                <h3>Ключевые навыки:</h3>
+                                <p>Лира-Сапр, AutoCAD, Инженерные системы, MS Outlook, Работа в команде,Контроль качества</p>
+
+                                <form method="POST" class="vacancy__form">
+                                    <div class="vacancy__form-title">Отправить свое резюме</div>
+                                    <div class="vacancy__form_wrapper">
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="text" name="name" id="name" placeholder="Ваше ФИО" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="email" name="email" id="email" placeholder="Ваш e-mail" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="tel" name="tel" id="tel" placeholder="Ваш телефон" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+
+
+                                        <div class="file_upload" id="file">
+                                            <button type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M7.5 18C4.46 18 2 15.535 2 12.5C2 9.465 4.46 7 7.5 7H18C20.21 7 22 8.79 22 11C22 13.21 20.21 15 18 15H9.5C8.12 15 7 13.88 7 12.5C7 11.12 8.12 10 9.5 10H17V11.5H9.5C8.95 11.5 8.5 11.945 8.5 12.5C8.5 13.055 8.95 13.5 9.5 13.5H18C19.38 13.5 20.5 12.38 20.5 11C20.5 9.62 19.38 8.5 18 8.5H7.5C5.29 8.5 3.5 10.29 3.5 12.5C3.5 14.71 5.29 16.5 7.5 16.5H17V18H7.5Z" fill="#263475"></path>
+                                                   </svg>
+                                                   </button>
+                                            <div>Файл</div>
+                                            <p>Максимальный размер файла 3.00мб</p>
+                                            <input type="file" name="file" id="file" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_textarea">
+                                            <textarea placeholder="Сообщение" type="text" name="subject" id="subject" class="focus"></textarea>
+                                            <span class="error"></span>
+                                        </div>
+
+                                    </div>
+
+                                    <button class="vacancy__form-button button" type="submit">Отправить</button>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="vacancy__list_item">
+                            <button class="accordion">
+                            <h2>Ведуший инженер по Зданию ГЭС и вспомогательным сооружениям</h2>
+                            <div class="accordion__text">
+                                <p>Зарплата по итогу собеседования</p>
+                                <p>Требуемый опыт работы: не менее 5 лет</p>
+                                    <p>Полная занятость, полный день</p>
+                            </div>
+                            </button>
+                            <div class="panel" style="margin-top: -1px;">
+                                <h3>Обязанности:</h3>
+                                <ul>
+
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Требования: ​​​​​​​</h3>
+                                <ul>
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Условия работы:</h3>
+                                <p>трудоустройство согласно ТК РУз;
+                                </p>
+                                <p>работа в современном офисе в центре города;
+                                </p>
+                                <p>график работы с пн.- пт. с 9:00 до 18:00</p>
+                                <h3>Ключевые навыки:</h3>
+                                <p>Лира-Сапр, AutoCAD, Инженерные системы, MS Outlook, Работа в команде,Контроль качества</p>
+
+                                <form method="POST" class="vacancy__form">
+                                    <div class="vacancy__form-title">Отправить свое резюме</div>
+                                    <div class="vacancy__form_wrapper">
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="text" name="name" id="name" placeholder="Ваше ФИО" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="email" name="email" id="email" placeholder="Ваш e-mail" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="tel" name="tel" id="tel" placeholder="Ваш телефон" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+
+
+                                        <div class="file_upload" id="file">
+                                            <button type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M7.5 18C4.46 18 2 15.535 2 12.5C2 9.465 4.46 7 7.5 7H18C20.21 7 22 8.79 22 11C22 13.21 20.21 15 18 15H9.5C8.12 15 7 13.88 7 12.5C7 11.12 8.12 10 9.5 10H17V11.5H9.5C8.95 11.5 8.5 11.945 8.5 12.5C8.5 13.055 8.95 13.5 9.5 13.5H18C19.38 13.5 20.5 12.38 20.5 11C20.5 9.62 19.38 8.5 18 8.5H7.5C5.29 8.5 3.5 10.29 3.5 12.5C3.5 14.71 5.29 16.5 7.5 16.5H17V18H7.5Z" fill="#263475"></path>
+                                                   </svg>
+                                                   </button>
+                                            <div>Файл</div>
+                                            <p>Максимальный размер файла 3.00мб</p>
+                                            <input type="file" name="file" id="file" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_textarea">
+                                            <textarea placeholder="Сообщение" type="text" name="subject" id="subject" class="focus"></textarea>
+                                            <span class="error"></span>
+                                        </div>
+
+                                    </div>
+
+                                    <button class="vacancy__form-button button" type="submit">Отправить</button>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="vacancy__list_item">
+                            <button class="accordion">
+                            <h2>Ведуший инженер по Зданию ГЭС и вспомогательным сооружениям</h2>
+                            <div class="accordion__text">
+                                <p>Зарплата по итогу собеседования</p>
+                                <p>Требуемый опыт работы: не менее 5 лет</p>
+                                    <p>Полная занятость, полный день</p>
+                            </div>
+                            </button>
+                            <div class="panel" style="margin-top: -1px;">
+                                <h3>Обязанности:</h3>
+                                <ul>
+
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Требования: ​​​​​​​</h3>
+                                <ul>
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Условия работы:</h3>
+                                <p>трудоустройство согласно ТК РУз;
+                                </p>
+                                <p>работа в современном офисе в центре города;
+                                </p>
+                                <p>график работы с пн.- пт. с 9:00 до 18:00</p>
+                                <h3>Ключевые навыки:</h3>
+                                <p>Лира-Сапр, AutoCAD, Инженерные системы, MS Outlook, Работа в команде,Контроль качества</p>
+
+                                <form method="POST" class="vacancy__form">
+                                    <div class="vacancy__form-title">Отправить свое резюме</div>
+                                    <div class="vacancy__form_wrapper">
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="text" name="name" id="name" placeholder="Ваше ФИО" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="email" name="email" id="email" placeholder="Ваш e-mail" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="tel" name="tel" id="tel" placeholder="Ваш телефон" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+
+
+                                        <div class="file_upload" id="file">
+                                            <button type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M7.5 18C4.46 18 2 15.535 2 12.5C2 9.465 4.46 7 7.5 7H18C20.21 7 22 8.79 22 11C22 13.21 20.21 15 18 15H9.5C8.12 15 7 13.88 7 12.5C7 11.12 8.12 10 9.5 10H17V11.5H9.5C8.95 11.5 8.5 11.945 8.5 12.5C8.5 13.055 8.95 13.5 9.5 13.5H18C19.38 13.5 20.5 12.38 20.5 11C20.5 9.62 19.38 8.5 18 8.5H7.5C5.29 8.5 3.5 10.29 3.5 12.5C3.5 14.71 5.29 16.5 7.5 16.5H17V18H7.5Z" fill="#263475"></path>
+                                                   </svg>
+                                                   </button>
+                                            <div>Файл</div>
+                                            <p>Максимальный размер файла 3.00мб</p>
+                                            <input type="file" name="file" id="file" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_textarea">
+                                            <textarea placeholder="Сообщение" type="text" name="subject" id="subject" class="focus"></textarea>
+                                            <span class="error"></span>
+                                        </div>
+
+                                    </div>
+
+                                    <button class="vacancy__form-button button" type="submit">Отправить</button>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="vacancy__list_item">
+                            <button class="accordion">
+                            <h2>Ведуший инженер по Зданию ГЭС и вспомогательным сооружениям</h2>
+                            <div class="accordion__text">
+                                <p>Зарплата по итогу собеседования</p>
+                                <p>Требуемый опыт работы: не менее 5 лет</p>
+                                    <p>Полная занятость, полный день</p>
+                            </div>
+                            </button>
+                            <div class="panel" style="margin-top: -1px;">
+                                <h3>Обязанности:</h3>
+                                <ul>
+
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Требования: ​​​​​​​</h3>
+                                <ul>
+                                    <li>- визуальное обследование строительных конструкций с оценкой технического состояния по внешним признакам;</li>
+                                    <li>- составление дефектных ведомостей и схем дефектов и повреждений строительных конструкций сооружений;</li>
+                                    <li>- инструментальное измерение геометрических параметров сооружений, конструкций и узлов;</li>
+                                    <li>- инструментальное определение параметров дефектов и повреждений;</li>
+                                    <li>- определение фактических характеристик материалов методами неразрушающего контроля.</li>
+
+                                </ul>
+                                <h3>Условия работы:</h3>
+                                <p>трудоустройство согласно ТК РУз;
+                                </p>
+                                <p>работа в современном офисе в центре города;
+                                </p>
+                                <p>график работы с пн.- пт. с 9:00 до 18:00</p>
+                                <h3>Ключевые навыки:</h3>
+                                <p>Лира-Сапр, AutoCAD, Инженерные системы, MS Outlook, Работа в команде,Контроль качества</p>
+
+                                <form method="POST" class="vacancy__form">
+                                    <div class="vacancy__form-title">Отправить свое резюме</div>
+                                    <div class="vacancy__form_wrapper">
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="text" name="name" id="name" placeholder="Ваше ФИО" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="email" name="email" id="email" placeholder="Ваш e-mail" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_input">
+                                            <input type="tel" name="tel" id="tel" placeholder="Ваш телефон" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+
+
+
+                                        <div class="file_upload" id="file">
+                                            <button type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M7.5 18C4.46 18 2 15.535 2 12.5C2 9.465 4.46 7 7.5 7H18C20.21 7 22 8.79 22 11C22 13.21 20.21 15 18 15H9.5C8.12 15 7 13.88 7 12.5C7 11.12 8.12 10 9.5 10H17V11.5H9.5C8.95 11.5 8.5 11.945 8.5 12.5C8.5 13.055 8.95 13.5 9.5 13.5H18C19.38 13.5 20.5 12.38 20.5 11C20.5 9.62 19.38 8.5 18 8.5H7.5C5.29 8.5 3.5 10.29 3.5 12.5C3.5 14.71 5.29 16.5 7.5 16.5H17V18H7.5Z" fill="#263475"></path>
+                                                   </svg>
+                                                   </button>
+                                            <div>Файл</div>
+                                            <p>Максимальный размер файла 3.00мб</p>
+                                            <input type="file" name="file" id="file" class="focus">
+                                            <span class="error"></span>
+                                        </div>
+                                        <div class="vacancy__form_wrapper_textarea">
+                                            <textarea placeholder="Сообщение" type="text" name="subject" id="subject" class="focus"></textarea>
+                                            <span class="error"></span>
+                                        </div>
+
+                                    </div>
+
+                                    <button class="vacancy__form-button button" type="submit">Отправить</button>
+
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                    <ul class="paggination">
+                        <li><a href="#" class="active">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#F4F5F9"/>
+                            <path d="M35.129 31.25L31.106 27.227L32.1665 26.1665L38 32L32.1665 37.8335L31.106 36.773L35.129 32.75H26V31.25H35.129Z" fill="#101C5A"/>
+                            </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" data-aos="fade-down">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper_col footer__projects">
+                    <div class="footer-title">Проекты</div>
+                    <ul class="footer__projects_list">
+                        <li>
+                            <a href="#" class="footer__projects_list-item"><img src="img/MainPage/about.png" alt="Project" /></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__projects_list-item"><img src="img/MainPage/footerP2.png" alt="Project" /></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__projects_list-item"><img src="img/MainPage/footerP3.png" alt="Project" /></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__projects_list-item"><img src="img/MainPage/footerP1.png" alt="Project" /></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__projects_list-item"><img src="img/MainPage/footerP2.png" alt="Project" /></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__projects_list-item"><img src="img/MainPage/footerP3.png" alt="Project" /></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="footer__projects-link">Все проекты</a>
+                </div>
+                <div class="footer__wrapper_col footer__services">
+                    <div class="footer-title">УСЛУГИ</div>
+                    <nav class="footer-menu">
+                        <a href="services.html">Инженерная геодезия</a>
+                        <a href="services.html">Лабораторные исследования</a>
+                        <a href="services.html">Инженерная геология</a>
+                        <a href="services.html">Геофизические исследования</a>
+                    </nav>
+
+                </div>
+                <div class="footer__wrapper_col footer__presscenter">
+                    <div class="footer-title">ПРЕСС-ЦЕНТР</div>
+                    <nav class="footer-menu">
+                        <a href="news.html">Новости</a>
+                        <a href="photos.html">Фотогалерея</a>
+                        <a href="videos.html">Видеогалерея</a>
+                    </nav>
+                </div>
+                <div class="footer__wrapper_col footer__aboutcenter">
+                    <div class="footer-title">О ЦЕНТРЕ</div>
+                    <nav class="footer-menu">
+                        <a href="tasks.html">Цели и задачи</a>
+                        <a href="structure.html">Структура</a>
+                        <a href="#">Отделы</a>
+                        <a href="#">Лицензии и сертификаты</a>
+                        <a href="documents.html">Документация</a>
+                        <a href="vacancy.html">Вакансии</a>
+                    </nav>
+                </div>
+                <div class="footer__wrapper_col footer__contacts">
+                    <div class="footer-title">КОНТАКТЫ</div>
+                    <div class="footer__contacts_phone">
+                        <a href="tel:+998934121212">+998 (991) 212-12-12</a>
+                        <a href="tel:+998934121212">+998 (991) 212-12-12</a>
+                    </div>
+                    <a class="footer__contacts-email" href="emailto:info@mail.uz">info@mail.uz</a>
+                    <div class="footer__contacts-address">
+                        Узбекистан, Ташкент, район, улица, дом
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+                <p>Все права защищены 2022 ©</p>
+                <div class="footer__bottom_dev">
+                    Developed by GoldenMinds
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<mask id="mask0_301_2659" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+						<rect width="28" height="28" fill="url(#pattern0)"/>
+						</mask>
+						<g mask="url(#mask0_301_2659)">
+						<rect y="-2.21045" width="28" height="33.1579" fill="#3243A0"/>
+						</g>
+						<defs>
+						<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+						<use xlink:href="#image0_301_2659" transform="scale(0.00740741)"/>
+						</pattern>
+						<image id="image0_301_2659" width="135" height="135" xlink:href="data:image/png;base64,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"/>
+						</defs>
+						</svg>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <form id="callback__form" class="callback mfp-hide">
+        <div class="callback-title">
+            Заказать звонок
+        </div>
+        <div class="callback-form">
+            <div class="callback-form__input">
+                <input type="text" name="name" placeholder="Ваше имя">
+            </div>
+            <div class="callback-form__input">
+                <input type="text" name="phone" placeholder="Ваш телефон">
+            </div>
+
+            <input type="submit" class="callback-form__submit" value="Отправить">
+
+            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    </form>
+
+    <script src="libs/aos/aos.js"></script>
+
+
+</body>
+
+</html>

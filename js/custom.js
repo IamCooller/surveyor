@@ -234,62 +234,17 @@ $('.has-childs > a').on('click', function() {
         $(this).toggleClass('tab-active');
     })
      */
+
+
 $(function() {
-    var tab = $('#tabs .tabs-items > div');
+    var tab = $('.documents__list > div');
     tab.hide().filter(':first').show();
 
     // Клики по вкладкам.
-    $('#tabs .tabs-nav a').click(function() {
+    $('.sidebar a').click(function() {
         tab.hide();
         tab.filter(this.hash).show();
-        $('#tabs .tabs-nav a').removeClass('tab-active');
-        $(this).addClass('tab-active');
-        return false;
-    }).filter(':first').click();
-
-    // Клики по якорным ссылкам.
-    $('.tabs-target').click(function() {
-        $('#tabs .tabs-nav a[href=' + $(this).attr('href') + ']').click();
-    });
-
-    // Отрытие вкладки из хеша URL
-    if (window.location.hash) {
-        $('#tabs-nav a[href=' + window.location.hash + ']').click();
-        window.scrollTo(0, $("#".window.location.hash).offset().top);
-    }
-});
-
-$(function() {
-    var tab = $('.history__body > div');
-    tab.hide().filter(':first').show();
-
-    // Клики по вкладкам.
-    $('.history__timeLaps a').click(function() {
-        tab.hide();
-        tab.filter(this.hash).show();
-        $('.history__timeLaps li').removeClass('timeLaps-active');
-        $(this).parent().addClass('timeLaps-active');
-        return false;
-    }).filter(':first').click();
-
-
-
-    // Отрытие вкладки из хеша URL
-    if (window.location.hash) {
-        $('.history__timeLaps a[href=' + window.location.hash + ']').click();
-        window.scrollTo(0, $("#".window.location.hash).offset().top);
-    }
-});
-
-$(function() {
-    var tab = $('.sidebar__right > div');
-    tab.hide().filter(':first').show();
-
-    // Клики по вкладкам.
-    $('.sidebar__left a').click(function() {
-        tab.hide();
-        tab.filter(this.hash).show();
-        $('.sidebar__left a').removeClass('active');
+        $('.sidebar a').removeClass('active');
         $(this).addClass('active');
         return false;
     }).filter(':first').click();
@@ -298,7 +253,7 @@ $(function() {
 
     // Отрытие вкладки из хеша URL
     if (window.location.hash) {
-        $('.history__timeLaps a[href=' + window.location.hash + ']').click();
+        $('.sidebar a[href="' + window.location.hash + '"]').click();
         window.scrollTo(0, $("#".window.location.hash).offset().top);
     }
 });
