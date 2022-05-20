@@ -4800,6 +4800,16 @@ ul.paggination li:last-child {
   }
 }
 
+.AboutPhotos {
+  padding-bottom: 155px;
+}
+
+@media (max-width: 1430px) {
+  .AboutPhotos {
+    padding-bottom: calc( 32px + 123 * ((100vw - 320px) / 1110));
+  }
+}
+
 .btn-mobile-block {
   display: none;
 }
